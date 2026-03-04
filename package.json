@@ -1,6 +1,6 @@
 {
   "name": "@synergenius/flowweaver-pack-inngest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inngest durable functions export target for Flow Weaver",
   "keywords": [
     "flowweaver-marketplace-pack",
