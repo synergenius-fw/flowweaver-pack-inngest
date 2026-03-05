@@ -22,7 +22,7 @@ import {
 } from '@synergenius/flow-weaver/deployment';
 import { getGeneratedBranding } from '@synergenius/flow-weaver/generated-branding';
 import { generateStandaloneRuntimeModule } from '@synergenius/flow-weaver/deployment';
-import { generateInngestFunction } from '@synergenius/flow-weaver/extensions/inngest';
+import { generateInngestFunction } from './generator.js';
 import { AnnotationParser } from '@synergenius/flow-weaver/api';
 
 /**

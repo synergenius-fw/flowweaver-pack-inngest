@@ -1,7 +1,7 @@
 {
-  "manifestVersion": 1,
+  "manifestVersion": 2,
   "name": "@synergenius/flowweaver-pack-inngest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "nodeTypes": [],
   "workflows": [],
   "patterns": [],
@@ -9,5 +9,20 @@
     "name": "inngest",
     "description": "Inngest durable event-driven functions",
     "file": "dist/target.js"
+  }],
+  "compileTargets": [{
+    "name": "inngest",
+    "file": "dist/register.js",
+    "description": "Inngest compile target with per-node step.run() durability"
+  }],
+  "devModeProviders": [{
+    "name": "inngest",
+    "file": "dist/register.js",
+    "description": "Inngest local dev server with hot reload"
+  }],
+  "templates": [{
+    "type": "workflow",
+    "ids": ["ai-agent-durable", "ai-pipeline-durable"],
+    "file": "dist/register.js"
   }]
 }
