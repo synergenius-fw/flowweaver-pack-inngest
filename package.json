@@ -1,5 +1,5 @@
 {
-  "name": "@synergenius/flowweaver-pack-inngest",
+  "name": "@synergenius/flow-weaver-pack-inngest",
   "version": "0.2.2",
   "description": "Inngest durable functions export target for Flow Weaver",
   "keywords": [
@@ -42,6 +42,6 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/synergenius-fw/flowweaver-pack-inngest.git"
+    "url": "https://github.com/synergenius-fw/flow-weaver-pack-inngest.git"
   }
 }

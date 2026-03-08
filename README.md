@@ -1,4 +1,4 @@
-# @synergenius/flowweaver-pack-inngest
+# @synergenius/flow-weaver-pack-inngest
 
 Inngest durable functions export target for [Flow Weaver](https://github.com/synergenius-fw/flow-weaver).
 
@@ -7,7 +7,7 @@ Generates event-driven, durable Inngest functions from Flow Weaver workflows. Ea
 ## Installation
 
 ```bash
-npm install @synergenius/flowweaver-pack-inngest
+npm install @synergenius/flow-weaver-pack-inngest
 ```
 
 This package is a **marketplace pack** — once installed, Flow Weaver automatically discovers it via `createTargetRegistry()`.
