@@ -4,6 +4,7 @@
   "description": "Inngest durable functions export target for Flow Weaver",
   "keywords": [
     "flow-weaver-marketplace-pack",
+    "flowweaver-marketplace-pack",
     "flow-weaver",
     "inngest",
     "durable",
